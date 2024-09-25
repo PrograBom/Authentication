@@ -1,0 +1,100 @@
+# Build a Release artifacts
+bin/
+obj/
+*.dll
+
+# NuGet cache
+project.nuget.cache
+
+# .NET Core package dependencies
+*.nuget
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.vsix
+
+# User-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#.env
+.env
+
+# Logs
+*.log
+*.tlog
+*.log1
+*.log2
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~ 
+
+# IDE-specific files
+.idea/
+.ionide/
+*.sln.ide
+*.ncrunchsolution
+
+# Entity Framework Core generated migrations
+Migrations/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Rider specific
+.idea/
+
+# Coverage reports
+coverage/
+coverage.info
+*.coverage
+*.coveragexml
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# StyleCop
+StyleCopCache
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# Rider IDE
+.idea/
+.idea/*
+
+# Windows image file caches
+*.iobj
+*.idb
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Visual Studio for Mac
+.vscode/
+.vscode/*
+
+# JetBrains Rider specific
+.idea/
